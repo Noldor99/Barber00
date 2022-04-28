@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+   box-sizing: border-box;
+}
+
+*, *::before, *::after{
+   box-sizing: inherit;
+}
+
+Catamaran
+google-webfonts-helper
+Get eot, ttf, svg, woff and woff2 files + CSS snippets
+Catamaran sans-serif
+Catamaran
+sans-serif
+9 styles 100, 200, 300, regular, 500, 600, 700, 800, 900
+3 charsets latin, latin-ext, tamil
+Rank 92 in popularity of 1404 fonts in total
+Last modified 2022-04-21 (v15)
+1. Select charsets: (default is latin)
+latinlatin-exttamil
+2. Select styles: (default is regular)
+Preview size
+16
+px
+ Sample text editable.
+100
+The quick brown fox jumps over the lazy dog.
+
+200
+The quick brown fox jumps over the lazy dog.
+
+300
+The quick brown fox jumps over the lazy dog.
+
+regular
+The quick brown fox jumps over the lazy dog.
+
+500
+The quick brown fox jumps over the lazy dog.
+
+600
+The quick brown fox jumps over the lazy dog.
+
+700
+The quick brown fox jumps over the lazy dog.
+
+800
+The quick brown fox jumps over the lazy dog.
+
+900
+The quick brown fox jumps over the lazy dog.
+
+3. Copy CSS: (default is Best Support)
+Best Support
+Modern Browsers
+Choose Modern Browsers if supporting old browsers is not relevant. Formats in this snippet: [woff,woff2]
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/catamaran-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/catamaran-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/catamaran-v15-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/catamaran-v15-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/catamaran-v15-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/catamaran-v15-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* catamaran-700 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/catamaran-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/catamaran-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/catamaran-v15-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/catamaran-v15-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+Customize folder prefix (optional): 
+../fonts/
+Click on code to select all statements, then copy/paste it into your own CSS file.
+
+4. Download files:
+Your generated archive for Catamaran with charsets [latin] and styles [500,600,700,800,regular] includes the formats [woff,woff2].
+
+Fonts are copyright of their respective authors.
+See Google Fonts Open Source Font Attribution to find out the specific license that this font uses.
+
+You are now ready to self-host Catamaran.
+If this service has actually been helpful for you, please star it on GitHub. If you've encountered serious problems file an issue here.
