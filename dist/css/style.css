@@ -1,4 +1,4 @@
-#main .subhairstyle .subhairstyle__wrap .subhairstyle__content button, #main .hairstyle .hairstyle__wrap .hairstyle__content button, #header .header__wrapper .menu__right button {
+#main .gallery .gallery__wrap button, #main .subhairstyle .subhairstyle__wrap .subhairstyle__content button, #main .hairstyle .hairstyle__wrap .hairstyle__content button, #header .header__wrapper .menu__right button {
   width: 188px;
   padding: 23px 33px;
   color: #FFFFFF;
@@ -12,7 +12,7 @@
   position: relative;
   display: block;
 }
-#main .subhairstyle .subhairstyle__wrap .subhairstyle__content button::before, #main .hairstyle .hairstyle__wrap .hairstyle__content button::before, #header .header__wrapper .menu__right button::before {
+#main .gallery .gallery__wrap button::before, #main .subhairstyle .subhairstyle__wrap .subhairstyle__content button::before, #main .hairstyle .hairstyle__wrap .hairstyle__content button::before, #header .header__wrapper .menu__right button::before {
   display: block;
   content: "";
   background: rgba(153, 186, 237, 0.5);
@@ -25,9 +25,20 @@
   left: 0;
 }
 
-#main .services .services__wrap, #main .subhairstyle, #main .hairstyle {
+#footer, #main .services .services__wrap, #main .subhairstyle, #main .hairstyle {
   max-width: 1920px;
   margin: 0 auto;
+}
+
+#footer .footer__wrap .footer__logo p::before, #header .header__wrapper .logo__body::before {
+  display: block;
+  content: "";
+  background: url(../img/svg/logo.svg);
+  width: 82px;
+  height: 89px;
+  position: absolute;
+  top: -47px;
+  left: -61px;
 }
 
 body {
@@ -54,16 +65,6 @@ body {
   font-weight: 600;
   font-size: 40px;
   color: #99BAED;
-}
-#header .header__wrapper .logo__body::before {
-  display: block;
-  content: "";
-  background: url(../img/svg/logo.svg);
-  width: 82px;
-  height: 89px;
-  position: absolute;
-  top: -47px;
-  left: -61px;
 }
 #header .header__wrapper .header__nav {
   padding-left: 124px;
@@ -235,4 +236,99 @@ body {
   opacity: 0.65;
   color: #FFFFFF;
   width: 359px;
+}
+#main .gallery .gallery__wrap {
+  max-width: 1378px;
+  margin: 0 auto;
+}
+#main .gallery .gallery__wrap .gallery__title {
+  padding-top: 272px;
+  padding-bottom: 110px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 116.6%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #163561;
+}
+#main .gallery .gallery__wrap .gallery__title span {
+  color: #FBB400;
+}
+#main .gallery .gallery__wrap .gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 37px;
+  margin-bottom: 77px;
+}
+#main .gallery .gallery__wrap .gallery__grid .gallery__item {
+  overflow: hidden;
+  position: relative;
+}
+#main .gallery .gallery__wrap .gallery__grid .gallery__item img {
+  height: 100%;
+}
+#main .gallery .gallery__wrap .gallery__grid .gallery__item::after {
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(82, 150, 255, 0.35);
+  position: absolute;
+}
+#main .gallery .gallery__wrap button {
+  margin: 0 auto;
+}
+
+#footer {
+  padding-top: 250px;
+  padding-bottom: 100px;
+}
+#footer .footer__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#footer .footer__wrap .footer__logo {
+  width: 67px;
+  border-radius: 50%;
+  padding-bottom: 37px;
+}
+#footer .footer__wrap .footer__logo p {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 133.6%;
+  color: #99BAED;
+  width: 136px;
+  position: rela tive;
+}
+#footer .footer__wrap p {
+  font-size: 25px;
+  line-height: 150.6%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #153461;
+  opacity: 0.65;
+  padding-bottom: 47px;
+  width: 526px;
+}
+#footer .footer__wrap .footer__icons {
+  display: flex;
+  column-gap: 25px;
+  padding-bottom: 47px;
+}
+#footer .footer__wrap .footer__icons .footer__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #D3E5FF;
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+}
+#footer .footer__wrap .footer__line {
+  border-bottom: 1px solid #99BAED;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1362px;
 }
